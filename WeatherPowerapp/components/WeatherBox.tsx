@@ -36,7 +36,7 @@ const WeatherBox = ({ date, temperature, weatherType }: IWeatherData) => {
   const cardStyles: IDocumentCardStyles = {
     root: { display: "inline-block", marginRight: 20, width: 230 },
   };
-  const conversationTileClass = mergeStyles({ height: 182 });
+  const conversationTileClass = mergeStyles({ height: 220 });
 
   return (
     <DocumentCard styles={cardStyles}>
