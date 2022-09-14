@@ -2,8 +2,6 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import MyReactComponent from "./components/MyReactComponent";
 import { IInputs, IOutputs } from "./generated/ManifestTypes";
-import DataSetInterfaces = ComponentFramework.PropertyHelper.DataSetApi;
-type DataSet = ComponentFramework.PropertyTypes.DataSet;
 
 export class PCFReactDemo
   implements ComponentFramework.StandardControl<IInputs, IOutputs>

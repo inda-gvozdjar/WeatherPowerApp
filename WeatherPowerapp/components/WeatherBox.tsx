@@ -27,7 +27,6 @@ const WeatherBox = ({ date, temperature, weatherType }: IWeatherData) => {
         return <PartlyCloudyDayIcon />;
       case "Sunny":
         return <SunnyIcon />;
-        break;
       default:
         break;
     }
